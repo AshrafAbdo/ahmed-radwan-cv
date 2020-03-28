@@ -14,7 +14,7 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#nav" data-offset="15">
+<body data-spy="scroll" data-target="#menu" data-offset="5" style="position: relative">
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -24,28 +24,35 @@
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         
-        <ul id="menu" class=" nav  navbar-nav navbar-center  navbar-fixed-top scrolling-navbar  " style="display: block ;  ">
-           
-            <li class="text-center">
-                <a href="#about">About</a>
+        
+        <ul id="menu" class=" nav  navbar-nav navbar-center nav-pills navbar-fixed-top scrolling-navbar form-inline  " style="display: block ;  ">
+           <a class="navbar-brand" href="#">ARA</a>
+            <li class="text-center nav-item ">
+                <a class="nav-link active" href="#about">About</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#experience">Experience</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#education">Education</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#skills">Skills</a>
             </li>
-            <li style="align-content: center">
+            <li class="nav-item" style="align-content: center">
                 <a href="#contact">Contact</a>
             </li>
+            <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </form>
             
         </ul>
+        
     
     </header>
     <!-- End header -->
@@ -77,6 +84,8 @@
                 </div>
                 <div class="col-md-8">
                     <p>
+                        junior data analyst with experience and good knowledge in the field of data analyses including Extensive knowledge of financials including amortization, debt securities, equities and derivatives such as options, futures and currency swaps , Demonstrated strong interpersonal skills with the ability to work effectively with upper management and excellent leadership skills in motivating others and Ability to meet deadlines and handle pressure coordinating multiple tasks.
+
                         Flexible and experienced data analyst willing to learn new technologies. Commendable skills in statistical languages, and machine learning. Ability to work in different work environments and provide data-driven solutions.
                     </p>
                 </div>
@@ -188,14 +197,15 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/python-logo.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Library management</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            A library management is a project that manages and stores books information electronically according to students needs. The system helps both students and library manager to keep a constant track of all the books available in the librarylibrary.
                         </p>
+                        <p>Tools: native python</p>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -208,15 +218,77 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Spam Mail.</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Spam is one of the major threats posed to email users. In 2013, 69.6% of all email flows were spam. Links in spam emails may lead to users to websites with malware or phishing schemes, which can access and disrupt the receiver’s computer system. These sites can also gather sensitive information from. Additionally, spam costs businesses around $2000 per employee per year due to decreased productivity.Therefore, an effective spam filtering technology is a significant contribution to the sustainability of the cyberspace and to our society.
+
                         </p>
+                        <p>Tools: probability, loops.</p>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Titanic</h3>
+                        <p>
+                            build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+                        </p>
+                        <p>Tools: Numpy ,Sklearn, Pandas, Seaborn, Matplotlib</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Detecting Fake News.</h3>
+                        <p>
+                            A type of yellow journalism, fake news encapsulates pieces of news that may be hoaxes and is generally spread through social media and other online media. This is often done to further or impose certain ideas and is often achieved with political agendas. Such news items may contain false and/or exaggerated claims, and may end up being viralized by algorithms, and users may end up in a filter bubble.
+                        </p>
+                        <p>Tools: Numpy ,Sklearn, Pandas, itertools</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Speech Emotion Recognition .</h3>
+                        <p>
+                            Speech Emotion Recognition, abbreviated as SER, is the act of attempting to recognize human emotion and affective states from speech. This is capitalizing on the fact that voice often reflects underlying emotion through tone and pitch. This is also the phenomenon that animals like dogs and horses employ to be able to understand human emotion.SER is tough because emotions are subjective and annotating audio is challenging.
+                        </p>
+                        <P>Tools: Numpy ,Sklearn, liprosa, os, glob, pickle, soundfile 	</P>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Chatbot.</h3>
+                        <p>
+                            A chatbot is an intelligent piece of software that is capable of communicating and performing actions similar to a human. Chatbots are used a lot in customer interaction, marketing on social network sites and instantly messaging the client. There are two basic types of chatbot models based on how they are built; Retrieval based and Generative based models..
+                        </p>
+                        <P>Tools: nltk , json, pickle, Numpy, keras, random</P>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
             </div>
         </div>
     </div>
@@ -258,12 +330,9 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+            <p>          address : 8th Abo Laban – Dokki- Giza- Egypt</p>
+            <P> e-mail : Hello@ahmedredwan.com</P>
+            <p> mobile : : 002 01014993934</p>
         </div>
         <!-- End #contact-form -->
     </div>
@@ -274,7 +343,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2020 Ashraf Abdo
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -282,6 +351,7 @@
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
+
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
@@ -304,6 +374,7 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </footer>
